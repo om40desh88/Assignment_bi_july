@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem-3</title>
+    <link rel="stylesheet" href="./problem3.css">
+</head>
+
+<body>
+    <div class="maincontainer">
+        <div class="head">
+            <h3>ID CARD GENERATOR</h3>
+        </div>
+        <div class="leftright">
+            <div class="left">
+                <h3>Enter Studant Details</h3>
+                <div class="om">
+                    <div>
+                        <h4>Name</h4>
+                        <input type="text" id="leftname" placeholder="Enter Name ">
+                    </div>
+                    <div>
+                        <h4>College Name</h4>
+                        <input type="text" id="leftcollege" placeholder="Enter College Name">
+                    </div>
+                    <div>
+                        <h4>Location</h4>
+                        <input type="text" id="leftlocation" placeholder="Enter Your Location ">
+                    </div>
+                    <div>
+                        <h4>Enter Studants Pictures</h4>
+                        <input type="file" id="leftfile" accept="image/*" onchange="loadImage(event)"
+                            alt="your picture">
+                    </div>
+                    <div>
+                        <button type="submit " id="btn"> Generate Id Card</button>
+
+
+                    </div>
+                </div>
+            </div>
+            <div id="right">
+                <div id="rightinner">
+                    <div>
+                        <h3>Generated Id Card</h3>
+                    </div>
+                    <div class="rightinner1">
+                        <img src="" id="imagedisplayed">
+                        <ul>
+                            <li id="rightname"></li>
+                            <li id="rightcollege"></li>
+                            <li id="rightlocation"></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="./problem3.js"></script>
+</body>
+
+</html>

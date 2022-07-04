@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.container {
+  height: 93vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+h1 {
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: white;
+}
+input {
+  width: 30px;
+  border-radius: 8px;
+  border: 3px solid black;
+  height: 61px;
+  width: 550px;
+  font-size: 30px;
+}
+button {
+  width: 117px;
+  margin-top: 18px;
+  height: 46px;
+  border-radius: 7px;
+  margin-right: 8px;
+  font-size: 24px;
+}
